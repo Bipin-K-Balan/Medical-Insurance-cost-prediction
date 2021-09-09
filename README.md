@@ -13,5 +13,6 @@ Sklearn pipelines has been used for train data and test data preprocessing and t
 
 <img width="622" alt="randforest" src="https://user-images.githubusercontent.com/53367536/132633983-97153cf6-75c4-4413-beae-ae863f4dfe04.PNG">
 
-Flask is used to create the API calls to the front end web interface which uses css, html and few java script codes.
+## Web Integration and Deployment
+Flask micro web framework is used to create the API calls to the from the python backend code that wrapeed around saved machine learning model to the front end web interface which uses css, html and few java script codes. The code in github is pushed to heroku for deployment. Since this is for testing purpose we did not worked on the latency and replicas of same applications. If thats the case we can dokerize it and deploy it on Kubernetes orchestration framework with auto scaling based on the CPU resource utilization.
 
