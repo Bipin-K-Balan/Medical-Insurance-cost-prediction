@@ -9,7 +9,9 @@ Main features are Age, gender, body mass index, childrens, smoker or not, locali
 
 ## Data collection and training
 The data is collected, after that seperated train and test data and created seperate data cleaning, transformation and feature engineering pipelines to avoid data leakage.
-Sklearn pipelines has been used for train data and test data preprocessing and transformations seperately inorder to reduce the complexity and for clean code approach. The jupyter notebook file attached above has contains all the Exploratory data analysis, creating sklearn pipelines and model selection in detail. 5 seperate pipelines has been used to train different regression models (Lasso and Ridge versions of Linear Regressions, Decision tree, Random Forest) and also performed grid search CV for hyper parameter tuning. From the metrics results best model (Random forest is giving good accuracy than other models where decision tree is more overfitted to the dataset) has been selected and saved as pikle file. Coding has been modularized for the future enhancement.
+Sklearn pipelines has been used for train data and test data preprocessing and transformations seperately inorder to reduce the complexity and for clean code approach. The jupyter notebook file attached above has contains all the Exploratory data analysis, creating sklearn pipelines and model selection in detail. 5 seperate pipelines has been used to train different regression models (Vanilla Linear regression, Lasso and Ridge versions of Linear Regressions, Decision tree, Random Forest) and also performed grid search CV for hyper parameter tuning. From the metrics results best model (Random forest is giving good accuracy than other models where decision tree is more overfitted to the dataset) has been selected and saved as pikle file. Coding has been modularized for the future enhancement.
+
+<img width="622" alt="randforest" src="https://user-images.githubusercontent.com/53367536/132633983-97153cf6-75c4-4413-beae-ae863f4dfe04.PNG">
 
 Flask is used to create the API calls to the front end web interface which uses css, html and few java script codes.
 
